@@ -57,9 +57,9 @@
         android:usesCleartextTraffic="true">
 
         <activity
-            android:name=".app.SplashActivity"
+            android:name=".app.MainActivity"
             android:label="@string/application_name"
-            android:theme="@style/Theme.Termux.Splash"
+            android:theme="@style/Theme.Termux.Main"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -77,9 +77,9 @@
             android:theme="@style/Theme.Termux.Oobe" />
 
         <activity
-            android:name=".app.MainActivity"
+            android:name=".app.SplashActivity"
             android:label="@string/application_name"
-            android:theme="@style/Theme.Termux.Main"
+            android:theme="@style/Theme.Termux.Splash"            
             android:launchMode="singleTask" />
 
         <activity
